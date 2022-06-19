@@ -101,9 +101,10 @@ $c: 'Comic Neue';
     font-family: 'Roboto', sans-serif;
     padding-top: 20px;
     color: $shadow;
-    position: absolute;
-    width: 850px;
-    margin: 0 auto;
+    position:absolute;
+   text-align: left;
+   margin-left: 20vw
+   
 }
 
 .else-pad {
