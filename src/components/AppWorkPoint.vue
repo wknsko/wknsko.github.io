@@ -13,8 +13,8 @@ export default {
         return {
             points: [
                 { title: 'Education',  desc: 'Studied fashion design at Secondary School of Fashion in Prague, then spend one year at Faculty of IT, CVUT and two years at Faculty of Informatics and Statistics, VSE'},
-                { title: 'Freelance', date: 2016, desc: 'Worked remotely as part-time website templates developer in HTML and CSS, making graphic content for  business websites and social media using Figma ' },
-                { title: 'Front-end Developer', date: '2018-2020', desc: 'Creating one page landing websites for businesses, using mostly HTML, CSS and basic JS' },
+                { title: 'Freelance', date: 2016, desc: `Worked remotely as part-time website templates' developer in HTML and CSS ` },
+                { title: 'Front-end Developer', date: '2018-2020', desc: 'Creating one page landing websites for businesses, using mostly HTML, CSS and basic JS, making graphic content for  business websites and social media using Figma' },
                 { title: 'QA', date: '2020-2022', desc: 'Remotely worked on optimizing QA as part of a outsourcing team. ' },
                 { title: 'Courses', desc: 'Took cources for basic Javascript few years back, but improving my skills with online courses(such as Odin, Udemy, Microsoft) and recently finished Vue Course.' }],
                

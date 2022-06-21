@@ -41,12 +41,16 @@ export default {
     .text-none {
         display: none;
     }
+        .resume {
+            display: none
+        }
     .about {
         max-width: 500px !important;
         h2 {
             text-align: center;
         }
     }
+    
     .about-body {
         max-width: 500px !important;
         display: flex;

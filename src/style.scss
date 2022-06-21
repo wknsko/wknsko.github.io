@@ -279,7 +279,7 @@ body {
 }
 
 .projects-list {
-    max-width: 800px;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -337,7 +337,8 @@ body {
 }
 
 .projects-list {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: nowrap;
@@ -353,11 +354,15 @@ body {
         align-items: center;
         font-family: $r, sans-serif;
         color: $stroke;
-        height: 500px;
+        height: 600px;
+        .project-tags {
+            max-width: fit-content;
+            width: 100%;
+        }
         div {
             margin: 0 auto;
             padding: 0 10px;
-            text-align: center;
+            text-align: left;
         }
         h5 {
             font-size: 1.5rem;
@@ -365,18 +370,19 @@ body {
             letter-spacing: 0.3rem;
             color: $med;
             text-decoration: underline;
-            margin-bottom: 0px;
+            margin-bottom: 10px;
+            text-align: left;
         }
         ul {
-            display: inline-flex;
+            display: -webkit-inline-box;
             list-style: none;
             font-family: $r, sans-serif;
-            margin-left: -10px;
             li {
-                padding: 7px 15px;
+                padding: 3px 10px;
+                font-size: 0.9rem;
                 background-color: $shadow;
-                margin-right: 10px;
                 color: $light;
+                margin-left: 3px;
                 &:hover {
                     animation-name: spin;
                     animation-duration: 0.3s;
@@ -421,6 +427,10 @@ body {
                 cursor: not-allowed;
                 opacity: 1;
             }
+        }
+        .info {
+            height: 350px;
+            width: 100%;
         }
         .img-dot {
             height: 12px;
