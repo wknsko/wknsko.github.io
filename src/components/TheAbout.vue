@@ -3,9 +3,8 @@
         <h2>About Me</h2>
         <div class="about-body">
             <div class="about-img"><img src="../assets/me.jpg" /></div>
-            <div class="about-text">Born and raised in Mariupol, Ukraine, but based in Prague for over a decade. Got interested in front-end development by making designs for 'hobby' websites on free hosting(narod.ru,
-            tut.su) as student and also spend a lot of time making customised themes on tumblr. Still then it wasn't
-            career choice, but one of hobbies. Finished Secondary School of Fashion, got into Faculty of
+            <div class="about-text">Born and raised in Ukraine, but based in Prague for over a decade. Got interested in front-end development by making designs for 'hobby' websites on free hostings(narod.ru,
+            tut.su) as student and also spend a lot of time making customised themes on tumblr. Finished Secondary School of Fashion, got into Faculty of
             Informatics, spend some time there and another university, but chose to take a job making HTML/CSS
             templates for websites. After few years and small break working as sales assistant was creating
             landing pages for businesses. Last two years dedicated to QA, but decided to get back to development
@@ -28,8 +27,8 @@
 export default {
     data() {
         return {
-            tags: ['JS(ES6+)', 'VUE.JS', 'NODE.JS', 'GIT', 'AXIOS', 'HTML', 'CSS'],
-            learnTags: ['TYPESCRIPT', 'ANGULAR', 'MONGODB', 'EXPRESS'],
+            tags: ['JS(ES6+)', 'VUE.JS', 'NODE.JS', 'GIT', 'AXIOS', 'EXPRESS', 'HTML', 'CSS'],
+            learnTags: ['TYPESCRIPT', 'ANGULAR', 'MONGODB'],
         }
     },
 
@@ -38,6 +37,9 @@ export default {
 
 <style lang="scss">
 @media screen and (max-width: 700px) {
+    .message-desc {
+        display:none;
+    }
     .text-none {
         display: none;
     }
@@ -63,5 +65,17 @@ export default {
         }
        
     }
+}
+@media screen and (max-width: 500px) {
+    .projects-list-body {
+        max-width: 100vw !important;
+        display: block !important;
+    }
+        .web-arrow {
+            display: none;
+        }
+      .mobile-arrows {
+        display: block !important;
+      }
 }
 </style>

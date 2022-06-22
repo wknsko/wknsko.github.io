@@ -211,7 +211,8 @@ body {
 }
 
 .about {
-    max-width: 700px;
+    max-width: 600px;
+    width: 100%;
     margin: 0 auto;
     animation-duration: 3s;
     animation-name: opacity;
@@ -279,7 +280,6 @@ body {
 }
 
 .projects-list {
-    max-width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -336,7 +336,7 @@ body {
     }
 }
 
-.projects-list {
+.projects-list-body {
     max-width: 500px;
     width: 100%;
     margin: 0 auto;
@@ -477,6 +477,10 @@ body {
     }
 }
 
+.mobile-arrows {
+    display: none;
+}
+
 .contact {
     max-width: 800px;
     margin: 0 auto;
@@ -544,4 +548,8 @@ body {
         font-family: monospace;
         font-size: 1.4rem;
     }
+}
+
+.resume {
+    display: none
 }

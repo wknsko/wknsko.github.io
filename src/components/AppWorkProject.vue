@@ -1,10 +1,18 @@
 <template>
-
-    <div class="projects-list">
-        <div @click="page('minus')" class="material-symbols-outlined">
+    <div class="mobile-arrows">
+        <div @click="page('minus')" class="material-symbols-outlined ">
             chevron_left
         </div>
-        <div class="project-item" :class="grid">
+        <div @click="page('plus')" class=" material-symbols-outlined">
+            chevron_right
+        </div>
+    </div>
+    <div class="projects-list-body">
+
+        <div @click="page('minus')" class="material-symbols-outlined web-arrow">
+            chevron_left
+        </div>
+        <div class="project-item">
             <div class="info">
                 <h5>{{projects[index].title}}</h5>
                 <div class="project-tags">
@@ -20,7 +28,7 @@
                 <div class="img-container">
                     <div class="top">
                         <span class="img-dot"></span>
-                        
+
                         <span class="img-dot"></span>
                         <span class="img-dot"></span>
                         <span @click="openLink(projects[index].link)" class="open-btn">open</span>
@@ -31,7 +39,7 @@
                 </div>
             </div>
         </div>
-        <div @click="page('plus')" class="material-symbols-outlined">
+        <div @click="page('plus')" class=" web-arrow material-symbols-outlined">
             chevron_right
         </div>
     </div>
@@ -74,9 +82,7 @@ export default {
        
     },
     mounted(){
-        if (window.innerWidth <= 550) {
-            this.grid = 'project-grid'
-        }
+        
     }
 
 }

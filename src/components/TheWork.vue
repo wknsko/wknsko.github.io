@@ -29,7 +29,7 @@
         </div>
         <div class="projects">
             <h4>projects</h4>
-            <div class="projects-list">
+            <div class="projects-lists">
 
                 <div>
                     <app-work-project></app-work-project>
