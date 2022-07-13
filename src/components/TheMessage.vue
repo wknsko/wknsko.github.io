@@ -1,14 +1,9 @@
 <template>
     <div class="welcome-message">
-        
+
     </div>
     <div class="message">
-        <div class="icons">
-            <ul>
-                <li><img src="../assets/github.png" width="20px" /></li>
-                <li><img src="../assets/linkedin.webp" width="20px" /></li>
-            </ul>
-        </div>
+        
         <div class="message-body">
             <div class="message-name">Anastasiya Kononova</div>
             <div class="message-desc">front-end developer interested in Vue.js</div>
@@ -26,7 +21,9 @@
 
 <script>
 export default {
-
+    openLink(link) {
+        window.open(link, '_blank')
+    },
 }
 </script>
 

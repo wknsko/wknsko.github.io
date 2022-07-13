@@ -3,6 +3,34 @@ import App from './App.vue'
 import './style.scss'
 
 const projects = [{
+        title: 'Grocery',
+        tags: ['HTML', 'Vue.js', "EXPRESS", 'CSS'],
+        text: 'Grocery shop front page with product list Database ',
+        imgsrc: 'grocery.png',
+        link: '',
+        gitlink: 'https://github.com/wknsko/vue-grocery'
+    }, {
+        title: 'Reddit',
+        tags: ['HTML', 'Vue.js', "Axios", "RestAPI", 'CSS'],
+        text: 'Reddit Api app with top stories from any sub u choose and getting random story',
+        imgsrc: 'reddit.png',
+        link: 'https://wknsko.github.io/vue-reddit/',
+        gitlink: 'https://github.com/wknsko/vue-reddit'
+    }, {
+        title: 'Booking Calendar',
+        tags: ['HTML', 'Vue.js', 'CSS'],
+        text: 'Calendar made with Vue.js for shor term booking',
+        imgsrc: 'calendar.png',
+        link: '',
+        gitlink: 'https://github.com/wknsko/vue-micro'
+    }, {
+        title: 'Micro',
+        tags: ['HTML', 'Vue.js', "EXPRESS", "MongoDB", 'CSS'],
+        text: 'Micro message web site with the ability to post text messages through MongoDb, routing made through vue-routes, more feautures are login, about and profile pages ',
+        imgsrc: 'micro.png',
+        link: '',
+        gitlink: 'https://github.com/wknsko/vue-micro'
+    }, {
         title: 'Color Palette',
         tags: ['HTML', 'Vue.js', 'CSS'],
         text: 'Generates 6 random colors with example and you have the ability to copy HEX and RGB of the selected color ',
