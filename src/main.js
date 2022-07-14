@@ -3,6 +3,13 @@ import App from './App.vue'
 import './style.scss'
 
 const projects = [{
+        title: 'Systack',
+        tags: ['HTML', 'Vue.js', 'Sass'],
+        text: 'Website for furniture brand made with Vue.js and Sass',
+        imgsrc: 'grocery.png',
+        link: 'https://wknsko.github.io/systack-furniture/',
+        gitlink: 'https://github.com/wknsko/systack-furniture'
+    }, {
         title: 'Grocery',
         tags: ['HTML', 'Vue.js', "EXPRESS", 'CSS'],
         text: 'Grocery shop front page with product list Database ',
@@ -21,7 +28,7 @@ const projects = [{
         tags: ['HTML', 'Vue.js', 'CSS'],
         text: 'Calendar made with Vue.js for shor term booking',
         imgsrc: 'calendar.png',
-        link: '',
+        link: 'https://wknsko.github.io/vue-booking-calendar/',
         gitlink: 'https://github.com/wknsko/vue-micro'
     }, {
         title: 'Micro',
@@ -30,6 +37,13 @@ const projects = [{
         imgsrc: 'micro.png',
         link: '',
         gitlink: 'https://github.com/wknsko/vue-micro'
+    }, {
+        title: 'Melia Hotel',
+        tags: ['HTML', 'Vue.js', 'CSS'],
+        text: 'Hotel web page',
+        imgsrc: 'melia-hotel.png',
+        link: 'https://wknsko.github.io/melia-hotel/',
+        gitlink: 'https://github.com/wknsko/melia-hotel'
     }, {
         title: 'Color Palette',
         tags: ['HTML', 'Vue.js', 'CSS'],
