@@ -3,10 +3,17 @@ import App from './App.vue'
 import './style.scss'
 
 const projects = [{
+        title: 'Under Sun',
+        tags: ['HTML', 'Vue.js', 'CSS'],
+        text: 'Frontend website for sunglasses company',
+        imgsrc: 'under-sun.png',
+        link: 'https://wknsko.github.io/under-sun/',
+        gitlink: 'https://github.com/wknsko/under-sun/'
+    }, {
         title: 'Systack',
         tags: ['HTML', 'Vue.js', 'Sass'],
         text: 'Website for furniture brand made with Vue.js and Sass',
-        imgsrc: 'grocery.png',
+        imgsrc: 'systack-furniture.png',
         link: 'https://wknsko.github.io/systack-furniture/',
         gitlink: 'https://github.com/wknsko/systack-furniture'
     }, {
