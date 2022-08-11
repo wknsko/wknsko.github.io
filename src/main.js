@@ -6,7 +6,7 @@ const projects = [{
         title: 'Enginen Restaurant',
         tags: ['HTML', 'Vue.js', 'CSS'],
         text: 'Frontend website for restaurant',
-        imgsrc: 'enginen.png',
+        imgsrc: 'enginen-restaurant.png',
         link: 'https://wknsko.github.io/enginen-restaurant/',
         gitlink: 'https://github.com/wknsko/enginen-restaurant/'
     }, {
@@ -51,13 +51,6 @@ const projects = [{
         imgsrc: 'micro.png',
         link: '',
         gitlink: 'https://github.com/wknsko/vue-micro'
-    }, {
-        title: 'Color Palette',
-        tags: ['HTML', 'Vue.js', 'CSS'],
-        text: 'Generates 6 random colors with example and you have the ability to copy HEX and RGB of the selected color ',
-        imgsrc: 'palette.png',
-        link: 'https://wknsko.github.io/vue-palette/',
-        gitlink: 'https://github.com/wknsko/vue-palette'
     },
     {
         title: 'Grocery',
@@ -66,6 +59,13 @@ const projects = [{
         imgsrc: 'grocery.png',
         link: '',
         gitlink: 'https://github.com/wknsko/vue-grocery'
+    }, {
+        title: 'Color Palette',
+        tags: ['HTML', 'Vue.js', 'CSS'],
+        text: 'Generates 6 random colors with example and you have the ability to copy HEX and RGB of the selected color ',
+        imgsrc: 'palette.png',
+        link: 'https://wknsko.github.io/vue-palette/',
+        gitlink: 'https://github.com/wknsko/vue-palette'
     },
     {
         title: 'Blog',
