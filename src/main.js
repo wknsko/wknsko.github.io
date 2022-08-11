@@ -3,6 +3,13 @@ import App from './App.vue'
 import './style.scss'
 
 const projects = [{
+        title: 'Enginen Restaurant',
+        tags: ['HTML', 'Vue.js', 'CSS'],
+        text: 'Frontend website for restaurant',
+        imgsrc: 'enginen.png',
+        link: 'https://wknsko.github.io/enginen-restaurant/',
+        gitlink: 'https://github.com/wknsko/enginen-restaurant/'
+    }, {
         title: 'Under Sun',
         tags: ['HTML', 'Vue.js', 'CSS'],
         text: 'Frontend website for sunglasses company',
@@ -17,12 +24,12 @@ const projects = [{
         link: 'https://wknsko.github.io/systack-furniture/',
         gitlink: 'https://github.com/wknsko/systack-furniture'
     }, {
-        title: 'Grocery',
-        tags: ['HTML', 'Vue.js', "EXPRESS", 'CSS'],
-        text: 'Grocery shop front page with product list Database ',
-        imgsrc: 'grocery.png',
-        link: '',
-        gitlink: 'https://github.com/wknsko/vue-grocery'
+        title: 'Melia Hotel',
+        tags: ['HTML', 'Vue.js', 'CSS'],
+        text: 'Hotel web page',
+        imgsrc: 'melia-hotel.png',
+        link: 'https://wknsko.github.io/melia-hotel/',
+        gitlink: 'https://github.com/wknsko/melia-hotel'
     }, {
         title: 'Reddit',
         tags: ['HTML', 'Vue.js', "Axios", "RestAPI", 'CSS'],
@@ -45,19 +52,20 @@ const projects = [{
         link: '',
         gitlink: 'https://github.com/wknsko/vue-micro'
     }, {
-        title: 'Melia Hotel',
-        tags: ['HTML', 'Vue.js', 'CSS'],
-        text: 'Hotel web page',
-        imgsrc: 'melia-hotel.png',
-        link: 'https://wknsko.github.io/melia-hotel/',
-        gitlink: 'https://github.com/wknsko/melia-hotel'
-    }, {
         title: 'Color Palette',
         tags: ['HTML', 'Vue.js', 'CSS'],
         text: 'Generates 6 random colors with example and you have the ability to copy HEX and RGB of the selected color ',
         imgsrc: 'palette.png',
         link: 'https://wknsko.github.io/vue-palette/',
         gitlink: 'https://github.com/wknsko/vue-palette'
+    },
+    {
+        title: 'Grocery',
+        tags: ['HTML', 'Vue.js', "EXPRESS", 'CSS'],
+        text: 'Grocery shop front page with product list Database ',
+        imgsrc: 'grocery.png',
+        link: '',
+        gitlink: 'https://github.com/wknsko/vue-grocery'
     },
     {
         title: 'Blog',
